@@ -1,0 +1,45 @@
+.navbarWrapper {
+    padding: 20px 10px;
+}
+
+.customDropDown {
+    position: absolute;
+    top: 76px;
+    left: 168px;
+}
+
+.customChildDropDown {
+    position: absolute;
+    top: 158px;
+    left: 333px;
+}
+
+.thirdLevelDD {
+    position: absolute;
+    top: 281px;
+    left: 498px;
+}
+
+.addCategoryWrapper {
+    margin-top: 30vh !important;
+}
+
+@media screen and(max-width: 768px) {
+    .customDropDown {
+        position: absolute;
+        top: 76px;
+        left: 168px;
+    }
+
+    .customChildDropDown {
+        position: absolute;
+        top: 158px;
+        left: 333px;
+    }
+
+    .thirdLevelDD {
+        position: absolute;
+        top: 281px;
+        left: 498px;
+    }
+}
